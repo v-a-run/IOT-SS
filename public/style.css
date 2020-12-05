@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("/iot-2.png") no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.308);
+	position: fixed;
+	top: 0;
+	font-family: 'Poppins', sans-serif;
+	font-style: italic;
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+	color: #fa8713;
+	background-color: rgba(0, 0, 0, 0.404);
+	transition: ease-out 0.3s all;
+}
+
+.navbar a:hover {
+	background-color: rgba(0, 0, 0, 0.664);
+	border-left: 2px solid #fa9f42;
+	border-right: 2px solid #fa9f42;
+	letter-spacing: 2px;
+}
+
+/* HOME PAGE */
+/* CONTENT STYLING */
+.content {
+	margin-top: 25vh;
+	margin-left: 25%;
+	height: 50vh;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.box1,
+.box2 {
+	padding: 1rem;
+	border-radius: 6px;
+	background-color: rgba(0, 0, 0, 0.301);
+	color: beige;
+}
+
+/* BUTTON Styling */
+.btn1,
+.btn2 {
+	margin-top: 0.5rem;
+	border: 1px solid #fa8713;
+	background: black;
+	color: #fa8713;
+	/* color: #74d1ed; */
+	font-weight: 100;
+	padding: 10px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+	font-family: 'Raleway', sans-serif;
+	cursor: pointer;
+}
+
+.btn1:hover,
+.btn2:hover {
+	color: #fa8713 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	transition: all 0.3s ease 0s;
+}
+
+/* ABOUT PAGE */
+.about {
+	border: 2px solid bisque;
+	text-align: center;
+	margin-top: 25vh;
+	margin-left: 15vw;
+	width: 70%;
+	height: 50vh;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.808);
+	color: blanchedalmond;
+	font-family: 'Nunito', sans-serif;
+}
+
+.about h1 {
+	padding: 1rem;
+	font-weight: 600;
+}
+
+.about p {
+	padding: 1.5rem;
+	color: dodgerblue;
+}
