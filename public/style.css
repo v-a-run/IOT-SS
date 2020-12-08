@@ -56,9 +56,9 @@ body {
 /* CONTENT STYLING */
 .content {
 	margin-top: 12vh;
-	margin-left: 25%;
+	margin-left: 10%;
 	height: 80vh;
-	width: 50%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -72,6 +72,7 @@ body {
 	border-radius: 6px;
 	background-color: rgba(0, 0, 0, 0.301);
 	color: beige;
+	font-size: 0.8rem;
 }
 
 /* BUTTON Styling */
@@ -81,7 +82,7 @@ body {
 	border: 1px solid #fa8713;
 	background: black;
 	color: #fa8713;
-	font-weight: 700;
+	font-weight: 200;
 	font-size: 1rem;
 	padding: 15px;
 	text-transform: uppercase;
@@ -90,7 +91,7 @@ body {
 	transition: all 0.3s ease 0s;
 	font-family: 'Raleway', sans-serif;
 	cursor: pointer;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	box-shadow: 0 4px #b3600e;
 	position: relative;
 }
